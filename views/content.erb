@@ -1,0 +1,1419 @@
+
+<div>
+<div class="island  island-light  no-border-radius  island-thin">
+  <p class="micro  text-center">1/12</p>
+</div>
+
+<div class="cell  one-twelfth">
+  <div class="island  island-light  no-border-radius  island-thin">
+    <p class="micro  text-center">1/12</p>
+  </div>
+</div>
+<div class="cell  one-twelfth">
+  <div class="island  island-light  no-border-radius  island-thin">
+    <p class="micro  text-center">1/12</p>
+  </div>
+</div>
+<div class="cell  one-twelfth">
+  <div class="island  island-light  no-border-radius  island-thin">
+    <p class="micro  text-center">1/12</p>
+  </div>
+</div>
+<div class="cell  one-twelfth">
+  <div class="island  island-light  no-border-radius  island-thin">
+    <p class="micro  text-center">1/12</p>
+  </div>
+</div>
+<div class="cell  one-twelfth">
+  <div class="island  island-light  no-border-radius  island-thin">
+    <p class="micro  text-center">1/12</p>
+  </div>
+</div>
+<div class="cell  one-twelfth">
+  <div class="island  island-light  no-border-radius  island-thin">
+    <p class="micro  text-center">1/12</p>
+  </div>
+</div>
+<div class="cell  one-twelfth">
+  <div class="island  island-light  no-border-radius  island-thin">
+    <p class="micro  text-center">1/12</p>
+  </div>
+</div>
+<div class="cell  one-twelfth">
+  <div class="island  island-light  no-border-radius  island-thin">
+    <p class="micro  text-center">1/12</p>
+  </div>
+</div>
+</div>
+<br>
+<br>
+<h4 class="weight-semibold  half-margin-bottom   base-margin-top">Proper Formatting</h4>
+<div class="code-container  solo">
+  <code class="language-html" data-lang="html">
+    <span class="color-blue">&lt;div class="<span class="color-red">grid</span>"&gt;</span><br>&nbsp;&nbsp;<span class="color-blue">&lt;div class="<span class="color-red">cell  one-half</span>"&gt;
+                <br>&nbsp;&nbsp;<span class="color-blue">&lt;/div&gt;</span><br>
+                &nbsp;&nbsp;<span class="color-blue">&lt;div class="<span class="color-red">cell  one-half</span>"&gt;<br>&nbsp;&nbsp;<span class="color-blue">&lt;/div&gt;</span><br>&lt;/div&gt;</span>
+  </code>
+</div>
+</section>
+
+<hr class="rule  color-white">
+
+<section id="typography">
+  <h2 id="typography" class="beta  section-title">Typography</h2>
+  <div class="grid  grid-fat">
+    <div class="cell  one-third  palm-one-whole">
+      <h1 class="giga">Aa</h1>
+    </div>
+    <div class="cell  one-third  palm-one-whole">
+      <h2 class="epsilon  no-margin-bottom">Myriad Pro</h2>
+      <p class="color-gray">abcdefghijklmnopqrstuvwxyz
+        ABCDEFGHIJKLMNOPQRS<br>TUVWXYZ&nbsp;0123456789
+      </p>
+    </div>
+    <div class="cell  one-third  palm-one-whole">
+      <div class="epsilon  weight-light  no-margin-bottom">weight-light (300)</div>
+      <div class="epsilon  no-margin-bottom">weight-regular (400)</div>
+      <div class="epsilon  weight-semibold  no-margin-bottom">weight-semibold (600)</div>
+      <div class="epsilon  weight-bold  no-margin-bottom">weight-bold (700)</div>
+    </div>
+  </div>
+
+  <h3 class="gamma  section-title   base-margin-top">Grid Sizes</h3>
+  <p class="half-margin-bottom">There are 5 different grid sizes you can use to control the gutters(white space) between your cells. Use <span class="class-highlight">.grid</span> as your base and append the desired grid size to it: (eg. <span class="class-highlight">.grid  .grid-fat</span>)</p>
+  <ul>
+    <li><span class="class-highlight">.grid-collapse</span> - No gutter</li>
+    <li><span class="class-highlight">.grid-thin</span> - 12px gutter</li>
+    <li><span class="class-highlight">.grid</span> - (base) 24px gutter</li>
+    <li><span class="class-highlight">.grid-thick</span> - 36px gutter</li>
+    <li><span class="class-highlight">.grid-fat</span> - 48px gutter</li>
+    <li><span class="class-highlight">.grid-center</span> - Does not control the gutter, but horizontally centers the cell.</li>
+  </ul>
+
+  <h3 class="gamma  section-title  base-margin-top">Responsive Grid</h3>
+  <p>We are a desktop first site but have created classes to add to your cells for a more responsive layout.  Use the <span class="class-highlight">.portable-*</span>, <span class="class-highlight">.lap-*</span>, and <span class="class-highlight">.palm-*</span> classes in conjunction with cell widths to ensure scalability with your layout.</p>
+  <h4 class="weight-semibold  half-margin-bottom">How it Works</h4>
+  <ul>
+    <li><span class="class-highlight">.portable-*</span> - Encompasses both tablet and palm devices</li>
+    <li><span class="class-highlight">.lap-*</span> - Tablet devices</li>
+    <li><span class="class-highlight">.palm-*</span> - Mobile devices</li>
+    <li>When adding additional device widths, ensure the order of your classes is: desktop > tablet > palm</li>
+    <li>You can hide the content for mobile devices using <span class="class-highlight">.palm-hide</span></li>
+  </ul>
+  <h4 class="weight-semibold  half-margin-bottom   base-margin-top">Proper Formatting</h4>
+  <div class="code-container  solo">
+    <code class="language-html" data-lang="html">
+      <span class="color-blue">&lt;div class="<span class="color-red">grid</span>"&gt;</span><br>&nbsp;&nbsp;<span class="color-blue">&lt;div class="<span class="color-red">cell  one-half  lap-two-thirds palm-one-whole</span>"&gt;
+                <br>&nbsp;&nbsp;<span class="color-blue">&lt;/div&gt;</span><br>
+                &nbsp;&nbsp;<span class="color-blue">&lt;div class="<span class="color-red">cell  one-half  lap-two-thirds palm-one-whole</span>"&gt;<br>&nbsp;&nbsp;<span class="color-blue">&lt;/div&gt;</span><br>&lt;/div&gt;</span>
+    </code>
+  </div>
+
+  <h3 class="gamma  section-title">Headings</h3>
+  <p>Use these classes for different heading/text sizes.</p>
+  <div class="grid ">
+    <div class="cell  two-fifths  palm-one-whole">
+      <h1 class="giga">Giga<span class="color-gray  milli  weight-normal"> (90px)</span></h1>
+      <h1 class="mega">Mega<span class="color-gray  milli  weight-normal"> (72px)</span></h1>
+      <h1 class="kilo  quarter-margin-bottom">Kilo<span class="color-gray  milli  weight-normal">( 60px)</span></h1>
+    </div>
+    <div class="cell  two-fifths  palm-one-whole">
+      <h1 class="alpha">h1 Alpha<span class="color-gray  milli  weight-normal"> (42px)</span></h1>
+      <h2 class="beta">h2 Beta<span class="color-gray  milli  weight-normal"> (36px)</span></h2>
+      <h3 class="gamma">h3 Gamma<span class="color-gray  milli  weight-normal"> (24px)</span></h3>
+      <h4 class="delta">h4 Delta<span class="color-gray  milli  weight-normal"> (21px)</span></h4>
+      <h5 class="epsilon">h5 Epsilon<span class="color-gray  milli  weight-normal"> (18px)</span></h5>
+      <h6 class="zeta">h6 Zeta<span class="color-gray  milli  weight-normal"> (16px)</span></h6>
+    </div>
+    <div class="cell  one-fifth  palm-one-whole">
+      <p class="milli   weight-semibold">Milli<span class="color-gray  milli  weight-normal"> (14px)</span></p>
+      <p class="micro  weight-semibold">Micro<span class="color-gray  milli  weight-normal"> (12px)</span></p>
+    </div>
+    <div class="cell one-whole">
+      <hr class="rule color-white">
+      <p>Add <b>.masthead-heading</b> to a heading tag to reduce spacing between letters in large headings.</p>
+      <div class="example-container">
+        <h1>This is a Heading<span class="color-gray  milli  weight-normal"> (Without class)</span></h1>
+        <div class="base-margin-bottom">
+          <h1 class="masthead-heading  inline">This is a Heading</h1><span class="color-gray  milli  weight-normal"> (With class)</span>
+        </div>
+        <div class="code-container">
+          <code class="language-html" data-lang="html">
+            <span class="color-blue">&lt;h1 class="<span class="color-red">masthead-heading</span>"&gt;</span>This is a Heading<span class="color-blue">&lt;/h1&gt;</span>
+          </code>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <h3 class="gamma  section-title">Body Copy</h3>
+  <p>The default font-size is 16px with line-height of 1.5em. All paragraphs have a bottom margin of 24px.</p>
+  <div class="example-container  base-margin-bottom">
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corrupti, vel, recusandae. Iusto, reiciendis cum, nisi delectus iste sint, saepe enim rerum non itaque expedita consequatur culpa distinctio, pariatur velit. Ea.</p>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corrupti, vel, recusandae. Iusto, reiciendis cum, nisi delectus iste sint, saepe enim rerum non itaque expedita consequatur culpa distinctio, pariatur velit. Ea.</p>
+    <div class="code-container">
+      <code class="language-html" data-lang="html">
+        <span class="color-blue">&lt;p&gt;</span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel, cum, nobis autem alias vero natus harum earum corrupti saepe blanditiis error doloremque magni quos. Quas doloribus quod architecto eveniet ex.<span class="color-blue">&lt;/p&gt;</span>
+      </code>
+    </div>
+  </div>
+
+  <h3 class="gamma section-title">Lists</h3>
+  <div class="grid  grid-thick">
+    <div class="cell  one-third">
+      <h4 class="epsilon  weight-semibold  quarter-margin-bottom">Standard</h4>
+      <p class="half-margin-bottom">Add <span class="class-highlight">.check-list</span> to your &lt;ul&gt; tag.</p>
+      <ul class="check-list">
+        <li>List Item</li>
+        <li>List Item</li>
+        <li>List Item</li>
+      </ul>
+    </div>
+    <div class="cell  one-third">
+      <h4 class="epsilon weight-semibold  quarter-margin-bottom">Thin List</h4>
+      <p class="half-margin-bottom">Add <span class="class-highlight">.check-list-thin</span></p>
+      <ul class="check-list  check-list-thin">
+        <li>List Item</li>
+        <li>List Item</li>
+        <li>List Item</li>
+      </ul>
+    </div>
+    <div class="cell  one-third">
+      <h4 class="epsilon weight-semibold  quarter-margin-bottom">Borderless List</h4>
+      <p class="half-margin-bottom">Use <span class="class-highlight">.check-list-borderless</span></p>
+      <ul class="check-list-borderless">
+        <li>List Item</li>
+        <li>List Item</li>
+        <li>List Item</li>
+      </ul>
+    </div>
+  </div>
+  <div class="grid  grid-thick">
+    <div class="cell one-half">
+      <h4 class="epsilon  weight-semibold  half-margin-bottom">Checklist</h4>
+      <p>Add <span class="class-highlight">.ss-check</span> to your &lt;li&gt; tags to add checkmarks next to your list items.For feature lists, append <span class="class-highlight">.feature-disabled</span> to a list item to gray it out.</p>
+      <ul class="check-list  half-margin-bottom">
+        <li class="ss-check">List Item</li>
+        <li class="ss-check">List Item</li>
+        <li class="ss-check  feature-disabled">List Item</li>
+      </ul>
+      <div class="code-container  solo">
+        <code class="language-html" data-lang="html">
+          <span class="color-blue">&lt;ul class="<span class="color-red">check-list</span>"&gt;</span><br>
+          &nbsp;&nbsp;<span class="color-blue">&lt;li class="<span class="color-red">ss-check</span>"&gt;</span>List Item<span class="color-blue">&lt;/li&gt;</span><br>
+          &nbsp;&nbsp;<span class="color-blue">&lt;li class="<span class="color-red">ss-check</span>"&gt;</span>List Item<span class="color-blue">&lt;/li&gt;</span><br>
+          &nbsp;&nbsp;<span class="color-blue">&lt;li class="<span class="color-red">ss-check  feature-disabled</span>"&gt;</span>List Item<span class="color-blue">&lt;/li&gt;</span><br>
+          <span class="color-blue">&lt;/ul&gt;</span>
+        </code>
+      </div>
+    </div>
+    <div class="cell one-half">
+      <h4 class="epsilon  weight-semibold  half-margin-bottom">Numbered List</h4>
+      <p>Add <span class="class-highlight">.secondary-numbered-list</span> to your &lt;ol&gt; tag to get a styled numbered list.</p>
+      <ol class="secondary-numbered-list">
+        <li>List Item</li>
+        <li>List Item</li>
+        <li>List Item</li>
+      </ol>
+      <div class="code-container  solo">
+        <code class="language-html" data-lang="html">
+          <span class="color-blue">&lt;ol class="<span class="color-red">secondary-numbered</span>"&gt;</span><br>
+          &nbsp;&nbsp;<span class="color-blue">&lt;li&gt;</span>List Item<span class="color-blue">&lt;/li&gt;</span><br>
+          &nbsp;&nbsp;<span class="color-blue">&lt;li&gt;</span>List Item<span class="color-blue">&lt;/li&gt;</span><br>
+          &nbsp;&nbsp;<span class="color-blue">&lt;li&gt;</span>List Item<span class="color-blue">&lt;/li&gt;</span><br>
+          <span class="color-blue">&lt;/ol&gt;</span>
+        </code>
+      </div>
+    </div>
+  </div>
+
+  <h3 class="gamma  section-title">Blockquotes</h3>
+  <div class="grid  grid-thick">
+    <div class="cell  one-third  palm-one-whole">
+      <h4 class="epsilon  weight-semibold  quarter-margin-bottom">Standard</h4>
+      <blockquote>
+        <div class="bubble">
+          <p class="delta  no-margin-bottom">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptate, atque.</p>
+        </div>
+        <div class="bubble-source">
+          <div class="weight-semibold">John Doe</div>
+          <div class="milli">John Doe Industries</div>
+        </div>
+      </blockquote>
+      <div class="code-container  solo">
+        <code class="language-html" data-lang="html">
+          <span class="color-blue">&lt;blockquote&gt;</span><br>
+          &nbsp;&nbsp;<span class="color-blue">&lt;div class="<span class="color-red">bubble</span>"&gt;</span><br>
+          &nbsp;&nbsp;&nbsp;&nbsp;<span class="color-blue">&lt;p&gt;</span>...<span class="color-blue">&lt;/p&gt;</span><br>
+          &nbsp;&nbsp;<span class="color-blue">&lt;/div&gt;</span><br>
+          &nbsp;&nbsp;<span class="color-blue">&lt;div class="<span class="color-red">bubble-source</span>"&gt;</span><br>
+          &nbsp;&nbsp;&nbsp;&nbsp;<span class="color-blue">&lt;div&gt;</span>...<span class="color-blue">&lt;/div&gt;</span><br>
+          &nbsp;&nbsp;&nbsp;&nbsp;<span class="color-blue">&lt;div&gt;</span>...<span class="color-blue">&lt;/div&gt;</span><br>
+          &nbsp;&nbsp;<span class="color-blue">&lt;/div&gt;</span><br>
+          <span class="color-blue">&lt;/blockquote&gt;</span>
+        </code>
+      </div>
+    </div>
+    <div class="cell  one-third  palm-one-whole">
+      <h4 class="epsilon  weight-semibold  quarter-margin-bottom">With Thumbnail</h4>
+      <blockquote>
+        <div class="bubble">
+          <p class="delta  no-margin-bottom">Lorem ipsum dolor sit amet, consectetur adipisicing elit spectural elim afr!</p>
+        </div>
+        <div class="bubble-source">
+          <div class="bubble-thumbnail">
+            <img alt="Capterra vendor" class="image-radius" src="http://cdn1.capterra-static.com/assets/vendors/profile-ken-hayes-5fdcabeea39d58cc6ceb075ba7c8d925.png">
+          </div>
+          <div class="bubble-source-name">
+            <div class="weight-semibold">John Doe</div>
+            <div class="milli">John Doe Industries</div>
+          </div>
+        </div>
+      </blockquote>
+      <div class="code-container  solo">
+        <code class="language-html" data-lang="html">
+          <span class="color-blue">&lt;blockquote&gt;</span><br>
+          &nbsp;&nbsp;<span class="color-blue">&lt;div class="<span class="color-red">bubble</span>"&gt;</span><br>
+          &nbsp;&nbsp;&nbsp;&nbsp;<span class="color-blue">&lt;p&gt;</span>...<span class="color-blue">&lt;/p&gt;</span><br>
+          &nbsp;&nbsp;<span class="color-blue">&lt;/div&gt;</span><br>
+          &nbsp;&nbsp;<span class="color-blue">&lt;div class="<span class="color-red">bubble-source</span>"&gt;</span><br>
+          &nbsp;&nbsp;&nbsp;&nbsp;<span class="color-blue">&lt;div class="<span class="color-red">bubble-thumbnail</span>&gt;</span><br>
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="color-blue">&lt;img href="#" class="<span class="color-red">image-radius</span>"&gt;</span>
+          &nbsp;&nbsp;&nbsp;&nbsp;<span class="color-blue">&lt;/div&gt;</span><br>
+          &nbsp;&nbsp;&nbsp;&nbsp;<span class="color-blue">&lt;div class="<span class="color-red">bubble-source-name</span>&gt;</span>...<span class="color-blue">&lt;/div&gt;</span><br>
+          &nbsp;&nbsp;<span class="color-blue">&lt;/div&gt;</span><br>
+          <span class="color-blue">&lt;/blockquote&gt;</span>
+        </code>
+      </div>
+    </div>
+    <div class="cell  one-third  palm-one-whole">
+      <h4 class="epsilon  weight-semibold  quarter-margin-bottom">With Logo</h4>
+      <blockquote>
+        <div class="bubble  bubble-epsilon">
+          <p class="delta  no-margin-bottom">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi, praesentium!</p>
+        </div>
+        <div class="bubble-source">
+          <div class="bubble-thumbnail">
+            <img alt="Capterra vendor" class="image-radius  bubble-logo-fade" src="http://cdn1.capterra-static.com/assets/customers/unitedway-mono.png">
+          </div>
+          <div class="bubble-source-name">
+            <div class="weight-semibold">John Doe</div>
+            <div class="milli">John Doe Insdustries</div>
+          </div>
+        </div>
+      </blockquote>
+      <div class="code-container  solo">
+        <code class="language-html" data-lang="html">
+          <span class="color-blue">&lt;blockquote&gt;</span><br>
+          &nbsp;&nbsp;<span class="color-blue">&lt;div class="<span class="color-red">bubble</span>"&gt;</span><br>
+          &nbsp;&nbsp;&nbsp;&nbsp;<span class="color-blue">&lt;p&gt;</span>...<span class="color-blue">&lt;/p&gt;</span><br>
+          &nbsp;&nbsp;<span class="color-blue">&lt;/div&gt;</span><br>
+          &nbsp;&nbsp;<span class="color-blue">&lt;div class="<span class="color-red">bubble-source</span>"&gt;</span><br>
+          &nbsp;&nbsp;&nbsp;&nbsp;<span class="color-blue">&lt;div class="<span class="color-red">bubble-thumbnail</span>&gt;</span><br>
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="color-blue">&lt;img href="" class="<span class="color-red">bubble-logo-fade</span>"&gt;</span>
+          &nbsp;&nbsp;&nbsp;&nbsp;<span class="color-blue">&lt;/div&gt;</span><br>
+          &nbsp;&nbsp;&nbsp;&nbsp;<span class="color-blue">&lt;div class="<span class="color-red">bubble-source-name</span>&gt;</span>...<span class="color-blue">&lt;/div&gt;</span><br>
+          &nbsp;&nbsp;<span class="color-blue">&lt;/div&gt;</span><br>
+          <span class="color-blue">&lt;/blockquote&gt;</span>
+        </code>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="colors">
+  <hr class="rule  color-white">
+  <h2 id="colors" class="beta  section-title">Colors</h2>
+  <div class="grid">
+    <div class="cell  one-fifth  lap-one-quarter  palm-one-half">
+      <div class="colors-row">
+        <div class="square  secondary">
+          <p class="milli">#127CC0<br>color-blue</p>
+        </div>
+      </div>
+    </div>
+    <div class="cell  one-fifth  lap-one-quarter  palm-one-half">
+      <div class="colors-row">
+        <div class="square  primary">
+          <p class="milli">#ED833F<br>color-orange</p>
+        </div>
+      </div>
+    </div>
+    <div class="cell  one-fifth  lap-one-quarter  palm-one-half">
+      <div class="colors-row">
+        <div class="square  positive">
+          <p class="milli">#12BD90<br>color-green</p>
+        </div>
+      </div>
+    </div>
+    <div class="cell  one-fifth  lap-one-quarter  palm-one-half">
+      <div class="colors-row">
+        <div class="square  alert">
+          <p class="milli  color-white">#FFE460<br>color-yellow</p>
+        </div>
+      </div>
+    </div>
+    <div class="cell  one-fifth  lap-one-quarter  palm-one-half">
+      <div class="colors-row">
+        <div class="square  negative">
+          <p class="milli">#CF5D60<br>color-red</p>
+        </div>
+      </div>
+    </div>
+    <div class="cell  one-fifth  lap-one-quarter  palm-one-half">
+      <div class="colors-row">
+        <div class="square  exterior">
+          <p class="milli">#e1dbcf<br>color-beige</p>
+        </div>
+      </div>
+    </div>
+    <div class="cell  one-fifth  lap-one-quarter  palm-one-half">
+      <div class="colors-row">
+        <div class="square  interior">
+          <p class="milli">#909090<br>color-gray</p>
+        </div>
+      </div>
+    </div>
+    <div class="cell  one-fifth  lap-one-quarter  palm-one-half">
+      <div class="colors-row">
+        <div class="square  text">
+          <h3 class="milli  color-white  quarter-margin-bottom">Body Text</h3>
+          <p class="milli">#444444<br>color-text</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<hr class="rule  color-white">
+
+<section id="buttons">
+  <h2 class="beta  section-title">Buttons</h2>
+  <p>Use <span class="class-highlight">.button</span> as the base and add additional classes for color and size.<p>
+  <div class="grid  grid-thick">
+    <div class="cell  two-sixths  palm-one-half">
+      <div class="half-margin-bottom">
+        <button type="button" class="button  button-primary">.button-primary</button>
+      </div>
+      <div class="half-margin-bottom">
+        <button type="button" class="button  button-secondary  quarter-margin-bottom">.button-secondary</button>
+      </div>
+      <div class="half-margin-bottom">
+        <button type="button" class="button  button-tertiary">.button-tertiary</button>
+      </div>
+    </div>
+    <div class="cell  two-sixths  palm-one-half">
+      <div class="half-margin-bottom">
+        <button type="button" class="button  button-interior">.button-interior</button>
+      </div>
+      <div class="half-margin-bottom">
+        <button type="button" class="button  button-positive">.button-positive</button>
+      </div>
+      <button type="button" class="button  button-primary  button-full">.button-full</button>
+    </div>
+    <div class="cell  two-sixths  palm-one-whole">
+      <div class="half-margin-bottom">
+        <button type="button" class="button  button-primary  button-large  half-margin-bottom">button-large</button>
+      </div>
+      <div class="half-margin-bottom">
+        <button type="button" class="button  button-primary  button-small">.button-small</button>
+      </div>
+      <button type="button" class="button  button-primary  button-tiny  half-margin-bottom">.button-tiny</button>
+    </div>
+  </div>
+  <div class="example-container  base-margin-top">
+    <button class="button  button-positive  button-small">Click Me!</button>
+    <button class="button  button-negative  button-large">Don't Click Me!</button>
+    <div class="code-container">
+      <code class="language-html" data-lang="html">
+        <span class="color-blue">&lt;button type="button" class="<span class="color-red">button  button-positive button-small</span>"&gt;</span>Click Me!<span class="color-blue">&lt;/button&gt;</span><br>
+        <span class="color-blue">&lt;button type="button" class="<span class="color-red">button  button-negative button-large</span>"&gt;</span>Don't Click Me!<span class="color-blue">&lt;/button&gt;</span>
+      </code>
+    </div>
+  </div>
+</section>
+
+<hr class="rule  color-white">
+
+<section id="icons">
+  <h2 id="icons" class="beta  section-title">Icons</h2>
+  <p>We use the <a href="https://symbolset.com/icons/standard" target="_blank">SS-Standard Symbolset</a> throughout our site. Add <span class="class-highlight">.icon-lead</span> to an &lt;i&gt; tag to add margin space to the right of the icon. Use <span class="class-highlight">.icon-follow</span> to add space to the left. Add <span class="class-highlight">.ss-social-regular</span> when using the social icons. <a href="#iconcode">Jump to code</a>.
+  <div class="grid">
+    <div class="cell  one-eighth  lap-one-sixth  palm-one-third">
+      <div class="text-center">
+        <i class="gamma  ss-cursor  no-margin-bottom"></i>
+        <p class="micro  color-gray">ss-cursor</p>
+      </div>
+    </div>
+    <div class="cell  one-eighth  lap-one-sixth  palm-one-third">
+      <div class="text-center">
+        <i class="gamma  ss-crosshair  no-margin-bottom"></i>
+        <p class="micro  color-gray">ss-crosshair</p>
+      </div>
+    </div>
+    <div class="cell  one-eighth  lap-one-sixth  palm-one-third">
+      <div class="text-center">
+        <i class="gamma  ss-search  no-margin-bottom"></i>
+        <p class="micro  color-gray">ss-search</p>
+      </div>
+    </div>
+    <div class="cell  one-eighth  lap-one-sixth  palm-one-third">
+      <div class="text-center">
+        <i class="gamma  ss-zoomin  no-margin-bottom"></i>
+        <p class="micro  color-gray">ss-zoomin</p>
+      </div>
+    </div>
+    <div class="cell  one-eighth  lap-one-sixth  palm-one-third">
+      <div class="text-center">
+        <i class="gamma  ss-zoomout  no-margin-bottom"></i>
+        <p class="micro  color-gray">ss-zoomout</p>
+      </div>
+    </div>
+    <div class="cell  one-eighth  lap-one-sixth  palm-one-third">
+      <div class="text-center">
+        <i class="gamma  ss-view  no-margin-bottom"></i>
+        <p class="micro  color-gray">ss-view</p>
+      </div>
+    </div>
+    <div class="cell  one-eighth  lap-one-sixth  palm-one-third">
+      <div class="text-center">
+        <i class="gamma  ss-attach  no-margin-bottom"></i>
+      </div><p class="micro  color-gray  text-center  half-margin-bottom"
+    >ss-attach</p>
+    </div>
+    <div class="cell  one-eighth  lap-one-sixth  palm-one-third">
+      <div class="text-center">
+        <i class="gamma  ss-link  no-margin-bottom"></i>
+        <p class="micro  color-gray">ss-link</p>
+      </div>
+    </div>
+    <div class="cell  one-eighth  lap-one-sixth  palm-one-third">
+      <div class="text-center">
+        <i class="gamma  ss-move  no-margin-bottom"></i>
+        <p class="micro  color-gray">ss-move</p>
+      </div>
+    </div>
+    <div class="cell  one-eighth  lap-one-sixth  palm-one-third">
+      <div class="text-center">
+        <i class="gamma  ss-write  no-margin-bottom"></i>
+        <p class="micro  color-gray">ss-write</p>
+      </div>
+    </div>
+    <div class="cell  one-eighth  lap-one-sixth  palm-one-third">
+      <div class="text-center">
+        <i class="gamma  ss-erase  no-margin-bottom"></i>
+        <p class="micro  color-gray">ss-erase</p>
+      </div>
+    </div>
+    <div class="cell  one-eighth  lap-one-sixth  palm-one-third">
+      <div class="text-center">
+        <i class="gamma  ss-compose  no-margin-bottom"></i>
+        <p class="micro  color-gray">ss-compose</p>
+      </div>
+    </div>
+    <div class="cell  one-eighth  lap-one-sixth  palm-one-third">
+      <div class="text-center">
+        <i class="gamma  ss-lock  no-margin-bottom"></i>
+        <p class="micro  color-gray">ss-lock</p>
+      </div>
+    </div>
+    <div class="cell  one-eighth  lap-one-sixth  palm-one-third">
+      <div class="text-center">
+        <i class="gamma  ss-unlock  no-margin-bottom"></i>
+        <p class="micro  color-gray">ss-unlock</p>
+      </div>
+    </div>
+    <div class="cell  one-eighth  lap-one-sixth  palm-one-third">
+      <div class="text-center">
+        <i class="gamma  ss-key  no-margin-bottom"></i>
+        <p class="micro  color-gray">ss-key</p>
+      </div>
+    </div>
+    <div class="cell  one-eighth  lap-one-sixth  palm-one-third">
+      <div class="text-center">
+        <i class="gamma  ss-ban  no-margin-bottom"></i>
+        <p class="micro  color-gray">ss-ban</p>
+      </div>
+    </div>
+    <div class="cell  one-eighth  lap-one-sixth  palm-one-third">
+      <div class="text-center">
+        <i class="gamma  ss-trash  no-margin-bottom"></i>
+        <p class="micro  color-gray">ss-trash</p>
+      </div>
+    </div>
+    <div class="cell  one-eighth  lap-one-sixth  palm-one-third">
+      <div class="text-center">
+        <i class="gamma  ss-tag  no-margin-bottom"></i>
+        <p class="micro  color-gray">ss-tag</p>
+      </div>
+    </div>
+    <div class="cell  one-eighth  lap-one-sixth  palm-one-third">
+      <div class="text-center">
+        <i class="gamma  ss-flag  no-margin-bottom"></i>
+        <p class="micro  color-gray">ss-flag</p>
+      </div>
+    </div>
+    <div class="cell  one-eighth  lap-one-sixth  palm-one-third">
+      <div class="text-center">
+        <i class="gamma  ss-like  no-margin-bottom"></i>
+        <p class="micro  color-gray">ss-like</p>
+      </div>
+    </div>
+    <div class="cell  one-eighth  lap-one-sixth  palm-one-third">
+      <div class="text-center">
+        <i class="gamma  ss-dislike  no-margin-bottom"></i>
+        <p class="micro  color-gray">ss-dislike</p>
+      </div>
+    </div>
+    <div class="cell  one-eighth  lap-one-sixth  palm-one-third">
+      <div class="text-center">
+        <i class="gamma  ss-heart  no-margin-bottom"></i>
+        <p class="micro  color-gray">ss-heart</p>
+      </div>
+    </div>
+    <div class="cell  one-eighth  lap-one-sixth  palm-one-third">
+      <div class="text-center">
+        <i class="gamma  ss-star  no-margin-bottom"></i>
+        <p class="micro  color-gray">ss-star</p>
+      </div>
+    </div>
+    <div class="cell  one-eighth  lap-one-sixth  palm-one-third">
+      <div class="text-center">
+        <i class="gamma  ss-halfstar  no-margin-bottom"></i>
+        <p class="micro  color-gray">ss-halfstar</p>
+      </div>
+    </div>
+    <div class="cell  one-eighth  lap-one-sixth  palm-one-third">
+      <div class="text-center">
+        <i class="gamma  ss-phone  no-margin-bottom"></i>
+        <p class="micro  color-gray">ss-phone</p>
+      </div>
+    </div>
+    <div class="cell  one-eighth  lap-one-sixth  palm-one-third">
+      <div class="text-center">
+        <i class="gamma  ss-reply  no-margin-bottom"></i>
+        <p class="micro  color-gray">ss-reply</p>
+      </div>
+    </div>
+    <div class="cell  one-eighth  lap-one-sixth  palm-one-third">
+      <div class="text-center">
+        <i class="gamma  ss-send  no-margin-bottom"></i>
+        <p class="micro  color-gray">ss-send</p>
+      </div>
+    </div>
+    <div class="cell  one-eighth  lap-one-sixth  palm-one-third">
+      <div class="text-center">
+        <i class="gamma  ss-mail  no-margin-bottom"></i>
+        <p class="micro  color-gray">ss-mail</p>
+      </div>
+    </div>
+    <div class="cell  one-eighth  lap-one-sixth  palm-one-third">
+      <div class="text-center">
+        <i class="gamma  ss-inbox  no-margin-bottom"></i>
+        <p class="micro  color-gray">ss-inbox</p>
+      </div>
+    </div>
+    <div class="cell  one-eighth  lap-one-sixth  palm-one-third">
+      <div class="text-center">
+        <i class="gamma  ss-chat  no-margin-bottom"></i>
+        <p class="micro  color-gray">ss-chat</p>
+      </div>
+    </div>
+    <div class="cell  one-eighth  lap-one-sixth  palm-one-third">
+      <div class="text-center">
+        <i class="gamma  ss-ellipsischat  no-margin-bottom"></i>
+        <p class="micro  color-gray">ss-ellipsischat</p>
+      </div>
+    </div>
+    <div class="cell  one-eighth  lap-one-sixth  palm-one-third">
+      <div class="text-center">
+        <i class="gamma  ss-user  no-margin-bottom"></i>
+        <p class="micro  color-gray">ss-user</p>
+      </div>
+    </div>
+    <div class="cell  one-eighth  lap-one-sixth  palm-one-third">
+      <div class="text-center">
+        <i class="gamma  ss-femaleuser  no-margin-bottom"></i>
+        <p class="micro  color-gray">ss-femaleuser</p>
+      </div>
+    </div>
+    <div class="cell  one-eighth  lap-one-sixth  palm-one-third">
+      <div class="text-center">
+        <i class="gamma  ss-users  no-margin-bottom"></i>
+        <p class="micro  color-gray">ss-users</p>
+      </div>
+    </div>
+    <div class="cell  one-eighth  lap-one-sixth  palm-one-third">
+      <div class="text-center">
+        <i class="gamma  ss-cart  no-margin-bottom"></i>
+        <p class="micro  color-gray">ss-cart</p>
+      </div>
+    </div>
+    <div class="cell  one-eighth  lap-one-sixth  palm-one-third">
+      <div class="text-center">
+        <i class="gamma  ss-dollarsign  no-margin-bottom"></i>
+        <p class="micro  color-gray">ss-dollarsign</p>
+      </div>
+    </div>
+    <div class="cell  one-eighth  lap-one-sixth  palm-one-third">
+      <div class="text-center">
+        <i class="gamma  ss-barchart  no-margin-bottom"></i>
+        <p class="micro  color-gray">ss-barchart</p>
+      </div>
+    </div>
+    <div class="cell  one-eighth  lap-one-sixth  palm-one-third">
+      <div class="text-center">
+        <i class="gamma  ss-piechart  no-margin-bottom"></i>
+        <p class="micro  color-gray">ss-piechart</p>
+      </div>
+    </div>
+    <div class="cell  one-eighth  lap-one-sixth  palm-one-third">
+      <div class="text-center">
+        <i class="gamma  ss-home  no-margin-bottom"></i>
+        <p class="micro  color-gray">ss-home</p>
+      </div>
+    </div>
+    <div class="cell  one-eighth  lap-one-sixth  palm-one-third">
+      <div class="text-center">
+        <i class="gamma  ss-buildings  no-margin-bottom"></i>
+        <p class="micro  color-gray">ss-buildings</p>
+      </div>
+    </div>
+    <div class="cell  one-eighth  lap-one-sixth  palm-one-third">
+      <div class="text-center">
+        <i class="gamma  ss-warehouse  no-margin-bottom"></i>
+        <p class="micro  color-gray">ss-warehouse</p>
+      </div>
+    </div>
+    <div class="cell  one-eighth  lap-one-sixth  palm-one-third">
+      <div class="text-center">
+        <i class="gamma  ss-globe  no-margin-bottom"></i>
+        <p class="micro  color-gray">ss-globe</p>
+      </div>
+    </div>
+    <div class="cell  one-eighth  lap-one-sixth  palm-one-third">
+      <div class="text-center">
+        <i class="gamma  ss-navigate  no-margin-bottom"></i>
+        <p class="micro  color-gray">ss-navigate</p>
+      </div>
+    </div>
+    <div class="cell  one-eighth  lap-one-sixth  palm-one-third">
+      <div class="text-center">
+        <i class="gamma  ss-compass  no-margin-bottom"></i>
+        <p class="micro  color-gray">ss-compass</p>
+      </div>
+    </div>
+    <div class="cell  one-eighth  lap-one-sixth  palm-one-third">
+      <div class="text-center">
+        <i class="gamma  ss-signpost  no-margin-bottom"></i>
+        <p class="micro  color-gray">ss-signpost</p>
+      </div>
+    </div>
+    <div class="cell  one-eighth  lap-one-sixth  palm-one-third">
+      <div class="text-center">
+        <i class="gamma  ss-map  no-margin-bottom"></i>
+        <p class="micro  color-gray">ss-map</p>
+      </div>
+    </div>
+    <div class="cell  one-eighth  lap-one-sixth  palm-one-third">
+      <div class="text-center">
+        <i class="gamma  ss-location  no-margin-bottom"></i>
+        <p class="micro  color-gray">ss-location</p>
+      </div>
+    </div>
+    <div class="cell  one-eighth  lap-one-sixth  palm-one-third">
+      <div class="text-center">
+        <i class="gamma  ss-pin  no-margin-bottom"></i>
+        <p class="micro  color-gray">ss-pin</p>
+      </div>
+    </div>
+    <div class="cell  one-eighth  lap-one-sixth  palm-one-third">
+      <div class="text-center">
+        <i class="gamma  ss-database  no-margin-bottom"></i>
+        <p class="micro  color-gray">ss-database</p>
+      </div>
+    </div>
+    <div class="cell  one-eighth  lap-one-sixth  palm-one-third">
+      <div class="text-center">
+        <i class="gamma  ss-hdd  no-margin-bottom"></i>
+        <p class="micro  color-gray">ss-harddrive</p>
+      </div>
+    </div>
+    <div class="cell  one-eighth  lap-one-sixth  palm-one-third">
+      <div class="text-center">
+        <i class="gamma  ss-camera  no-margin-bottom"></i>
+        <p class="micro  color-gray">ss-camera</p>
+      </div>
+    </div>
+    <div class="cell  one-eighth  lap-one-sixth  palm-one-third">
+      <div class="text-center">
+        <i class="gamma  ss-picture  no-margin-bottom"></i>
+        <p class="micro  color-gray">ss-picture</p>
+      </div>
+    </div>
+    <div class="cell  one-eighth  lap-one-sixth  palm-one-third">
+      <div class="text-center">
+        <i class="gamma  ss-video  no-margin-bottom"></i>
+        <p class="micro  color-gray">ss-video</p>
+      </div>
+    </div>
+    <div class="cell  one-eighth  lap-one-sixth  palm-one-third">
+      <div class="text-center">
+        <i class="gamma  ss-play  no-margin-bottom"></i>
+        <p class="micro  color-gray">ss-play</p>
+      </div>
+    </div>
+    <div class="cell  one-eighth  lap-one-sixth  palm-one-third">
+      <div class="text-center">
+        <i class="gamma  ss-pause  no-margin-bottom"></i>
+        <p class="micro  color-gray">ss-pause</p>
+      </div>
+    </div>
+    <div class="cell  one-eighth  lap-one-sixth  palm-one-third">
+      <div class="text-center">
+        <i class="gamma  ss-rewind  no-margin-bottom"></i>
+        <p class="micro  color-gray">ss-rewind</p>
+      </div>
+    </div>
+    <div class="cell  one-eighth  lap-one-sixth  palm-one-third">
+      <div class="text-center">
+        <i class="gamma  ss-fastforward  no-margin-bottom"></i>
+        <p class="micro  color-gray">ss-fastforward</p>
+      </div>
+    </div>
+    <div class="cell  one-eighth  lap-one-sixth  palm-one-third">
+      <div class="text-center">
+        <i class="gamma  ss-replay  no-margin-bottom"></i>
+        <p class="micro  color-gray">ss-replay</p>
+      </div>
+    </div>
+    <div class="cell  one-eighth  lap-one-sixth  palm-one-third">
+      <div class="text-center">
+        <i class="gamma  ss-book  no-margin-bottom"></i>
+        <p class="micro  color-gray">ss-book</p>
+      </div>
+    </div>
+    <div class="cell  one-eighth  lap-one-sixth  palm-one-third">
+      <div class="text-center">
+        <i class="gamma  ss-openbook  no-margin-bottom"></i>
+        <p class="micro  color-gray">ss-openbook</p>
+      </div>
+    </div>
+    <div class="cell  one-eighth  lap-one-sixth  palm-one-third">
+      <div class="text-center">
+        <i class="gamma  ss-notebook  no-margin-bottom"></i>
+        <p class="micro  color-gray">ss-notebook</p>
+      </div>
+    </div>
+    <div class="cell  one-eighth  lap-one-sixth  palm-one-third">
+      <div class="text-center">
+        <i class="gamma  ss-newspaper  no-margin-bottom"></i>
+        <p class="micro  color-gray">ss-newspaper</p>
+      </div>
+    </div>
+    <div class="cell  one-eighth  lap-one-sixth  palm-one-third">
+      <div class="text-center">
+        <i class="gamma  ss-rows  no-margin-bottom"></i>
+        <p class="micro  color-gray">ss-rows</p>
+      </div>
+    </div>
+    <div class="cell  one-eighth  lap-one-sixth  palm-one-third">
+      <div class="text-center">
+        <i class="gamma  ss-columns  no-margin-bottom"></i>
+        <p class="micro  color-gray">ss-columns</p>
+      </div>
+    </div>
+    <div class="cell  one-eighth  lap-one-sixth  palm-one-third">
+      <div class="text-center">
+        <i class="gamma  ss-filter  no-margin-bottom"></i>
+        <p class="micro  color-gray">ss-filter</p>
+      </div>
+    </div>
+    <div class="cell  one-eighth  lap-one-sixth  palm-one-third">
+      <div class="text-center">
+        <i class="gamma  ss-desktop  no-margin-bottom"></i>
+        <p class="micro  color-gray">ss-desktop</p>
+      </div>
+    </div>
+    <div class="cell  one-eighth  lap-one-sixth  palm-one-third">
+      <div class="text-center">
+        <i class="gamma  ss-laptop  no-margin-bottom"></i>
+        <p class="micro  color-gray">ss-laptop</p>
+      </div>
+    </div>
+    <div class="cell  one-eighth  lap-one-sixth  palm-one-third">
+      <div class="text-center">
+        <i class="gamma  ss-tablet  no-margin-bottom"></i>
+        <p class="micro  color-gray">ss-tablet</p>
+      </div>
+    </div>
+    <div class="cell  one-eighth  lap-one-sixth  palm-one-third">
+      <div class="text-center">
+        <i class="gamma  ss-cell  no-margin-bottom"></i>
+        <p class="micro  color-gray">ss-cell</p>
+      </div>
+    </div>
+    <div class="cell  one-eighth  lap-one-sixth  palm-one-third">
+      <div class="text-center">
+        <i class="gamma  ss-lightbulb  no-margin-bottom"></i>
+        <p class="micro  color-gray">ss-lightbulb</p>
+      </div>
+    </div>
+    <div class="cell  one-eighth  lap-one-sixth  palm-one-third">
+      <div class="text-center">
+        <i class="gamma  ss-download  no-margin-bottom"></i>
+        <p class="micro  color-gray">ss-download</p>
+      </div>
+    </div>
+    <div class="cell  one-eighth  lap-one-sixth  palm-one-third">
+      <div class="text-center">
+        <i class="gamma  ss-upload  no-margin-bottom"></i>
+        <p class="micro  color-gray">ss-upload</p>
+      </div>
+    </div>
+    <div class="cell  one-eighth  lap-one-sixth  palm-one-third">
+      <div class="text-center">
+        <i class="gamma  ss-refresh  no-margin-bottom"></i>
+        <p class="micro  color-gray">ss-refresh</p>
+      </div>
+    </div>
+    <div class="cell  one-eighth  lap-one-sixth  palm-one-third">
+      <div class="text-center">
+        <i class="gamma  ss-loading  no-margin-bottom"></i>
+        <p class="micro  color-gray">ss-loading</p>
+      </div>
+    </div>
+    <div class="cell  one-eighth  lap-one-sixth  palm-one-third">
+      <div class="text-center">
+        <i class="gamma  ss-file  no-margin-bottom"></i>
+        <p class="micro  color-gray">ss-file</p>
+      </div>
+    </div>
+    <div class="cell  one-eighth  lap-one-sixth  palm-one-third">
+      <div class="text-center">
+        <i class="gamma  ss-folder  no-margin-bottom"></i>
+        <p class="micro  color-gray">ss-folder</p>
+      </div>
+    </div>
+    <div class="cell  one-eighth  lap-one-sixth  palm-one-third">
+      <div class="text-center">
+        <i class="gamma  ss-quote  no-margin-bottom"></i>
+        <p class="micro  color-gray">ss-quote</p>
+      </div>
+    </div>
+    <div class="cell  one-eighth  lap-one-sixth  palm-one-third">
+      <div class="text-center">
+        <i class="gamma  ss-print  no-margin-bottom"></i>
+        <p class="micro  color-gray">ss-print</p>
+      </div>
+    </div>
+    <div class="cell  one-eighth  lap-one-sixth  palm-one-third">
+      <div class="text-center">
+        <i class="gamma  ss-list  no-margin-bottom"></i>
+        <p class="micro  color-gray">ss-list</p>
+      </div>
+    </div>
+    <div class="cell  one-eighth  lap-one-sixth  palm-one-third">
+      <div class="text-center">
+        <i class="gamma  ss-redirect  no-margin-bottom"></i>
+        <p class="micro  color-gray">ss-redirect</p>
+      </div>
+    </div>
+    <div class="cell  one-eighth  lap-one-sixth  palm-one-third">
+      <div class="text-center">
+        <i class="gamma  ss-expand  no-margin-bottom"></i>
+        <p class="micro  color-gray">ss-expand</p>
+      </div>
+    </div>
+    <div class="cell  one-eighth  lap-one-sixth  palm-one-third">
+      <div class="text-center">
+        <i class="gamma  ss-contract  no-margin-bottom"></i>
+        <p class="micro  color-gray">ss-contract</p>
+      </div>
+    </div>
+    <div class="cell  one-eighth  lap-one-sixth  palm-one-third">
+      <div class="text-center">
+        <i class="gamma  ss-help  no-margin-bottom"></i>
+        <p class="micro  color-gray">ss-help</p>
+      </div>
+    </div>
+    <div class="cell  one-eighth  lap-one-sixth  palm-one-third">
+      <div class="text-center">
+        <i class="gamma  ss-info  no-margin-bottom"></i>
+        <p class="micro  color-gray">ss-info</p>
+      </div>
+    </div>
+    <div class="cell  one-eighth  lap-one-sixth  palm-one-third">
+      <div class="text-center">
+        <i class="gamma  ss-alert  no-margin-bottom"></i>
+        <p class="micro  color-gray">ss-alert</p>
+      </div>
+    </div>
+    <div class="cell  one-eighth  lap-one-sixth  palm-one-third">
+      <div class="text-center">
+        <i class="gamma  ss-logout  no-margin-bottom"></i>
+        <p class="micro  color-gray">ss-logout</p>
+      </div>
+    </div>
+    <div class="cell  one-eighth  lap-one-sixth  palm-one-third">
+      <div class="text-center">
+        <i class="gamma  ss-plus  no-margin-bottom"></i>
+        <p class="micro  color-gray">ss-plus</p>
+      </div>
+    </div>
+    <div class="cell  one-eighth  lap-one-sixth  palm-one-third">
+      <div class="text-center">
+        <i class="gamma  ss-hyphen  no-margin-bottom"></i>
+        <p class="micro  color-gray">ss-hyphen</p>
+      </div>
+    </div>
+    <div class="cell  one-eighth  lap-one-sixth  palm-one-third">
+      <div class="text-center">
+        <i class="gamma  ss-check  no-margin-bottom"></i>
+        <p class="micro  color-gray">ss-check</p>
+      </div>
+    </div>
+    <div class="cell  one-eighth  lap-one-sixth  palm-one-third">
+      <div class="text-center">
+        <i class="gamma  ss-delete  no-margin-bottom"></i>
+        <p class="micro  color-gray">ss-delete</p>
+      </div>
+    </div>
+    <div class="cell  one-eighth  lap-one-sixth  palm-one-third">
+      <div class="text-center">
+        <i class="gamma  ss-settings  no-margin-bottom"></i>
+        <p class="micro  color-gray">ss-settings</p>
+      </div>
+    </div>
+    <div class="cell  one-eighth  lap-one-sixth  palm-one-third">
+      <div class="text-center">
+        <i class="gamma  ss-dashboard  no-margin-bottom"></i>
+        <p class="micro  color-gray">ss-dashboard</p>
+      </div>
+    </div>
+    <div class="cell  one-eighth  lap-one-sixth  palm-one-third">
+      <div class="text-center">
+        <i class="gamma  ss-clock  no-margin-bottom"></i>
+        <p class="micro  color-gray">ss-clock</p>
+      </div>
+    </div>
+    <div class="cell  one-eighth  lap-one-sixth  palm-one-third">
+      <div class="text-center">
+        <i class="gamma  ss-calendar  no-margin-bottom"></i>
+        <p class="micro  color-gray">ss-calendar</p>
+      </div>
+    </div>
+    <div class="cell  one-eighth  lap-one-sixth  palm-one-third">
+      <div class="text-center">
+        <i class="gamma  ss-up  no-margin-bottom"></i>
+        <p class="micro  color-gray">ss-up</p>
+      </div>
+    </div>
+    <div class="cell  one-eighth  lap-one-sixth  palm-one-third">
+      <div class="text-center">
+        <i class="gamma  ss-down  no-margin-bottom"></i>
+        <p class="micro  color-gray">ss-down</p>
+      </div>
+    </div>
+    <div class="cell  one-eighth  lap-one-sixth  palm-one-third">
+      <div class="text-center">
+        <i class="gamma  ss-left  no-margin-bottom"></i>
+        <p class="micro  color-gray">ss-left</p>
+      </div>
+    </div>
+    <div class="cell  one-eighth  lap-one-sixth  palm-one-third">
+      <div class="text-center">
+        <i class="gamma  ss-right  no-margin-bottom"></i>
+        <p class="micro  color-gray">ss-right</p>
+      </div>
+    </div>
+    <div class="cell  one-eighth  lap-one-sixth  palm-one-third">
+      <div class="text-center">
+        <i class="gamma  ss-navigateup  no-margin-bottom"></i>
+        <p class="micro  color-gray">ss-navigateup</p>
+      </div>
+    </div>
+    <div class="cell  one-eighth  lap-one-sixth  palm-one-third">
+      <div class="text-center">
+        <i class="gamma  ss-navigatedown  no-margin-bottom"></i>
+        <p class="micro  color-gray">ss-navigatedown</p>
+      </div>
+    </div>
+    <div class="cell  one-eighth  lap-one-sixth  palm-one-third">
+      <div class="text-center">
+        <i class="gamma  ss-navigateright  no-margin-bottom"></i>
+        <p class="micro  color-gray">ss-navigateright</p>
+      </div>
+    </div>
+    <div class="cell  one-eighth  lap-one-sixth  palm-one-third">
+      <div class="text-center">
+        <i class="gamma  ss-navigateleft  no-margin-bottom"></i>
+        <p class="micro  color-gray">ss-navigateleft</p>
+      </div>
+    </div>
+    <div class="cell  one-eighth  lap-one-sixth  palm-one-third">
+      <div class="text-center">
+        <i class="gamma  ss-social-regular  ss-facebook"></i>
+      </div>
+      <p class="micro  color-gray">ss-facebook</p>
+    </div>
+    <div class="cell  one-eighth  lap-one-sixth  palm-one-third">
+      <div class="text-center">
+        <i class="gamma  ss-social-regular  ss-twitter"></i>
+      </div>
+      <p class="micro  color-gray">ss-twitter</p>
+    </div>
+    <div class="cell  one-eighth  lap-one-sixth  palm-one-third">
+      <div class="text-center">
+        <i class="gamma  ss-social-regular  ss-linkedin"></i>
+      </div>
+      <p class="micro  color-gray">ss-linkedin</p>
+    </div>
+    <div class="cell  one-eighth  lap-one-sixth  palm-one-third">
+      <div class="text-center">
+        <i class="gamma  ss-social-regular  ss-googleplus"></i>
+      </div>
+      <p class="micro  color-gray">ss-googleplus</p>
+    </div>
+    <div class="cell  one-eighth  lap-one-sixth  palm-one-third">
+      <div class="text-center">
+        <i class="gamma  ss-social-regular  ss-pinterest"></i>
+      </div>
+      <p class="micro  color-gray">ss-pinterest</p>
+    </div>
+  </div>
+  <div class="example-container">
+    <h3><i class="ss-star  icon-lead"></i>Icon Lead</h3>
+    <h3>Icon Follow<i class="ss-star  icon-follow"></i></h3>
+    <h3><i class="ss-social-regular  ss-facebook icon-lead"></i>Facebook</h3>
+    <div class="code-container">
+      <code class="language-html" data-lang="html">
+        <span class="color-blue">&lt;h3&gt;&lt;i class="<span class="color-red">ss-star  icon-lead</span>"&gt;&lt;/i&gt;</span>Icon Lead<span class="color-blue">&lt;/h3&gt;</span><br>
+        <span class="color-blue">&lt;h3&gt;</span>This is a Heading<span class="color-blue">&lt;i class="</span><span class="color-red">ss-star  icon-follow</span><span class="color-blue">"&gt;&lt;/i&gt;</span></span><span class="color-blue">&lt;/h3&gt;</span><br>
+        <span class="color-blue">&lt;h3&gt;&lt;i class="<span class="color-red">ss-social-regular  ss-facebook  icon-lead</span>"&gt;&lt;/i&gt;</span>Facebook<span class="color-blue">&lt;/h3&gt;</span>
+      </code>
+    </div>
+  </div>
+</section>
+
+<hr class="rule  color-white">
+
+<section id="forms">
+  <h2 class="beta  section-title">Forms</h2>
+  <div class="grid  grid-fat">
+    <div class="cell  one-half  desk-omega-halves  palm-one-whole  base-margin-bottom">
+      <label class="label-heading" for="applicant_first_name">label-heading<span class="color-red" title="Required Field">*</span>
+      </label>
+      <input class="text-input" id="applicant_first_name" name="applicant[first_name]" placeholder="text-input" size="30" type="text">
+    </div>
+    <div class="cell  one-half  desk-omega-halves  palm-one-whole  base-margin-bottom">
+      <label class="label-heading" for="applicant_first_name">Validation Feedback<span class="color-red" title="Required Field">*</span>
+      </label>
+      <input class="error text-input" id="applicant_first_name" name="applicant[first_name]" placeholder=".error  .text-input" size="30" type="text" value="">
+      <div class="error-message  milli">.error-message  .milli</div>
+    </div>
+    <div class="cell  one-half  base-margin-bottom">
+      <label class="label-heading" for="applicant_customer_size">.label-heading<span class="color-red" title="Required Field">*</span>
+      </label>
+      <select id="applicant_customer_size" name="applicant[customer_size]">
+        <option value="option value 1">option value 1</option>
+        <option value="option value 2">option value 2</option>
+        <option value="option value 3">option value 3</option>
+      </select>
+    </div>
+    <li class="cell  one-half">
+      <span class="label  label-heading">.label  .label-heading<span class="color-red" title="Required Field">*</span></span>
+      <ul class="form-option-list">
+        <li>
+          <input class="radio" id="buying_stage_1" name="lead[buying_stage]" type="radio" value="Just starting / doing research">
+          <label for="buying_stage_1">Form Option 1</label>
+        </li>
+        <li>
+          <input class="radio" id="buying_stage_2" name="lead[buying_stage]" type="radio" value="Creating a list of options">
+          <label for="buying_stage_2">Form Option 2</label>
+        </li>
+        <li>
+          <input class="radio" id="buying_stage_3" name="lead[buying_stage]" type="radio" value="Ready to do demos">
+          <label for="buying_stage_3">Form Option 3</label>
+        </li>
+      </ul>
+    </li>
+  </div>
+</section>
+
+<hr class="rule  color-white">
+
+<section id="nav">
+  <h2 class="beta  section-title">Navigation</h2>
+  <h3 class="delta  weight-semibold  quarter-margin-bottom">Secondary Navigation</h3>
+  <p>Used on about pages</p>
+  <div class="stack  stack-bold">
+    <div class="stack-content-thin">
+      <nav>
+        <a href="#" class="ss-rows  toggle-section-nav"></a>
+        <ul class="nav  nav-block  nav-horizontal  section-nav">
+          <li><a href="/about">About</a></li>
+          <li><a href="/customers">Customers</a></li>
+          <li><a href="/news" class="active">News</a></li>
+          <li><a href="/team">Team</a></li>
+          <li><a href="/careers">Careers</a></li>
+          <li><a href="/contact">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </div>
+  <div class="code-container  solo">
+    <code class="language-html" data-lang="html">
+      <span class="color-blue">&lt;div class="<span class="color-red">stack  stack-bold</span>"&gt;</span></span><br>
+      &nbsp;&nbsp;<span class="color-blue">&lt;div class="<span class="color-red">stack-content-thin</span>"&gt;</span><br>
+      &nbsp;&nbsp;&nbsp;&nbsp;<span class="color-blue">&lt;nav&gt;</span><br>
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="color-blue">&lt;a href="#" class="<span class="color-red">ss-rows  toggle-section-nav</span>"&gt;</span></span><span class="color-blue">&lt;/a&gt;</span><br>
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="color-blue">&lt;ul class="<span class="color-red">nav  nav-block  nav-horizontal  section-nav</span>"&gt;</span></span><br>
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="color-blue">&lt;li&gt;</span></span><span class="color-blue">&lt;a&gt;</span></span><span class="color-blue">&lt;/a&gt;</span><span class="color-blue">&lt;/li&gt;</span><br>
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="color-blue">&lt;li&gt;</span></span><span class="color-blue">&lt;a&gt;</span></span><span class="color-blue">&lt;/a&gt;</span><span class="color-blue">&lt;/li&gt;</span><br>
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="color-blue">&lt;li&gt;</span></span><span class="color-blue">&lt;a&gt;</span></span><span class="color-blue">&lt;/a&gt;</span><span class="color-blue">&lt;/li&gt;</span><br>
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="color-blue">&lt;/ul&gt;</span><br>
+      &nbsp;&nbsp;&nbsp;&nbsp;<span class="color-blue">&lt;/nav&gt;</span><br>
+      &nbsp;&nbsp;<span class="color-blue">&lt;/div&gt;</span><br>
+      <span class="color-blue">&lt;/div&gt;</span>
+    </code>
+  </div>
+  <h3 class="delta  weight-semibold  quarter-margin-bottom  base-margin-top">Breadcrumb Links</h3>
+  <p>Used on spotlight and content-cluster pages.</p>
+  <div class="stack  stack-bold">
+    <div class="stack-content">
+      <ul class="breadcrumbs  site-breadcrumbs  milli">
+        <li class="ss-home"><a href="http://capterra.com">Home</a></li>
+        <li class="ss-navigateright">Link 1</li>
+        <li class="ss-navigateright">Link 2</li>
+      </ul>
+    </div>
+  </div>
+  <div class="code-container  solo">
+    <code class="language-html" data-lang="html">
+      <span class="color-blue">&lt;div class="<span class="color-red">stack  stack-bold</span>"&gt;</span></span><br>
+      &nbsp;&nbsp;<span class="color-blue">&lt;div class="<span class="color-red">stack-content</span>"&gt;</span><br>
+      &nbsp;&nbsp;&nbsp;&nbsp;<span class="color-blue">&lt;ul class="<span class="color-red">breadcrumbs  site-breadcrumbs  milli</span>"&gt;</span></span><br>
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="color-blue">&lt;li class="<span class="color-red">ss-home</span>"&gt;</span></span><span class="color-blue">&lt;a&gt;</span></span><span class="color-blue">&lt;/a&gt;</span><span class="color-blue">&lt;/li&gt;</span><br>
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="color-blue">&lt;li class="<span class="color-red">ss-navigateright</span>"&gt;</span></span><span class="color-blue">&lt;a&gt;</span></span><span class="color-blue">&lt;/a&gt;</span><span class="color-blue">&lt;/li&gt;</span><br>
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="color-blue">&lt;li class="<span class="color-red">ss-navigateright</span>"&gt;</span></span><span class="color-blue">&lt;a&gt;</span></span><span class="color-blue">&lt;/a&gt;</span><span class="color-blue">&lt;/li&gt;</span><br>
+      &nbsp;&nbsp;&nbsp;&nbsp;<span class="color-blue">&lt;/ul&gt;</span><br>
+      &nbsp;&nbsp;<span class="color-blue">&lt;/div&gt;</span><br>
+      <span class="color-blue">&lt;/div&gt;</span>
+    </code>
+  </div>
+  <h3 class="delta weight-semibold half-margin-bottom  base-margin-top">Tabs</h3>
+  <p>These are only styles for tabs display. Can be used with the _toggle.js module to hide/show tabs.</p>
+  <ul class="tabs">
+    <li><a href="#tab" class="tab  toggle-trigger">.tab</a></li>
+    <li><a href="#active" class="tab  toggle-trigger  active">.active</a></li>
+  </ul>
+  <div class="code-container  solo">
+    <code class="language-html" data-lang="html">
+      <span class="color-blue">&lt;ul class="<span class="color-red">tabs</span>"&gt;</span></span><br>
+      &nbsp;&nbsp;<span class="color-blue">&lt;li&gt;</span><span class="color-blue">&lt;a href="#" class="<span class="color-red">tab</span>"&gt;</span></span>Tab 1<span class="color-blue">&lt;/a&gt;</span><span class="color-blue">&lt;/li&gt;</span><br>
+      &nbsp;&nbsp;<span class="color-blue">&lt;li&gt;</span><span class="color-blue">&lt;a href="#" class="<span class="color-red">tab</span>"&gt;</span></span>Tab 2<span class="color-blue">&lt;/a&gt;</span><span class="color-blue">&lt;/li&gt;</span><br>
+      &nbsp;&nbsp;<span class="color-blue">&lt;li&gt;</span><span class="color-blue">&lt;a href="#" class="<span class="color-red">tab</span>"&gt;</span></span>Tab 3<span class="color-blue">&lt;/a&gt;</span><span class="color-blue">&lt;/li&gt;</span><br>
+      <span class="color-blue">&lt;/ul&gt;</span>
+    </code>
+  </div>
+</section>
+
+<hr class="rule  color-white">
+
+<section id="islands">
+  <h2 class="beta section-title">Islands</h2>
+  <p>Islands are self contained elements with padding that usually have a contrasting background color or outline. Good for callouts. Use <span class="class-highlight">.island</span> as your base and build from that.</p>
+  <div class="grid">
+    <div class="cell  one-third">
+      <h4 class="epsilon  weight-semibold  half-margin-bottom">Colors</h4>
+      <div id="one" class="island  island-primary">
+        <p class="epsilon  text-center  weight-bold  quarter-margin-bottom">.island-primary</p>
+      </div>
+      <div class="island  island-secondary">
+        <p class="epsilon  text-center  weight-bold  quarter-margin-bottom">.island-secondary</p>
+      </div>
+      <div class="island  island-positive">
+        <p class="epsilon  text-center  weight-bold  quarter-margin-bottom">.island-positive</p>
+      </div>
+      <div class="island  island-interior">
+        <p class="epsilon  text-center  weight-bold  quarter-margin-bottom">.island-interior</p>
+      </div>
+      <div class="island  island-light">
+        <p class="epsilon  text-center  weight-bold  quarter-margin-bottom">.island-light</p>
+      </div>
+      <div class="alert  island-info">
+        <p class="epsilon  text-center  weight-bold  quarter-margin-bottom">.island-info</p>
+      </div>
+    </div>
+    <div class="cell  one-third">
+      <h4 class="epsilon  weight-semibold  half-margin-bottom">Outlines</h4>
+      <div class="island  island-primary  island-outline">
+        <p class="epsilon  text-center  weight-bold">.island-outline</p>
+      </div>
+      <div class="island  island-secondary  island-outline">
+        <p class="epsilon  text-center  weight-bold">.island-outline</p>
+      </div>
+      <div class="island  island-positive  island-outline">
+        <p class="epsilon  text-center weight-bold">.island-outline</p>
+      </div>
+      <div class="island  island-interior  island-outline">
+        <p class="epsilon  text-center  weight-bold">.island-outline</p>
+      </div>
+      <div class="island  island-primary  island-outline  island-inherit-color">
+        <h2 class="epsilon  text-center  quarter-margin-bottom">.island-inherit-color</h2>
+        <p class="milli  text-center">Color of text inherits shade of container color</p>
+      </div>
+    </div>
+    <div class="cell  one-third">
+      <h4 class="epsilon  weight-semibold  half-margin-bottom">Padding Sizes</h4>
+      <div class="island  island-interior  island-outline  island-nopad">
+        <h2 class="epsilon  text-center">.island-nopad</h2>
+      </div>
+      <div class="island  island-interior  island-outline  island-thin">
+        <h2 class="epsilon  text-center  quarter-margin-bottom">.island-thin</h2><p class="color-gray  milli  text-center">Has 12px padding on all sides</p>
+      </div>
+      <div class="island  island-interior  island-outline  island-thick">
+        <h2 class="epsilon  text-center quarter-margin-bottom">.island-thick</h2><p class="color-gray  milli  text-center">Has 36px padding on all sides</p>
+      </div>
+      <div class="island  island-interior  island-outline  island-fat">
+        <h2 class="epsilon  text-center  quarter-margin-bottom">.island-fat</h2><p class="color-gray  milli  text-center">Has 48px padding on all sides</p>
+      </div>
+    </div>
+  </div>
+  <div class="example-container">
+    <div class="island  island-interior  island-inherit-color  island-thick">
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Non, velit.</p>
+    </div>
+    <div class="code-container">
+      <code class="language-html" data-lang="html">
+        <span class="color-blue">&lt;div class="<span class="color-red">island  island-interior  island-inherit-color  island-thick</span>"&gt;</span><br>
+        &nbsp;&nbsp;<span class="color-blue">&lt;p&gt;</span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos, dicta!<span class="color-blue">&lt;/p&gt;</span><br>
+        <span class="color-blue">&lt;/div&gt;</span>
+      </code>
+    </div>
+  </div>
+</section>
+
+<hr class="rule  color-white">
+
+<section id="helpers">
+  <h2 class="beta  section-title">Helpers</h2>
+  <p>We have a number of helper classes that allow us to quickly style elements throughout the application without adding unnecessary bloat and complexity to our CSS. This also allows us to keep our CSS specificity low.
+  </p>
+  <h3 class="gamma  weight-semibold  section-title">Float Helpers</h3>
+  <div class="grid   grid-center">
+    <div class="cell  one-fifth  float-left">
+      <div class="island  island-interior  island-outline  float-left  no-margin-bottom  color-gray  milli  weight-semibold">.float-left
+      </div>
+    </div>
+    <div class="cell  one-fifth  float-right">
+      <div class="island  island-interior  island-outline  float-right  no-margin-bottom  color-gray  milli  weight-semibold">.float-right
+      </div>
+    </div>
+    <div class="cell  one-fifth  float-center">
+      <div class="island  island-interior  island-outline  float-center  no-margin-bottom  color-gray  milli  weight-semibold">.float-center
+      </div>
+    </div>
+  </div>
+  <h3 class="gamma  weight-semibold  section-title">Text Helpers</h3>
+  <div class="grid">
+    <div class="cell  one-third">
+      <div class="island  island-interior  island-outline  no-margin-bottom  color-gray  milli  weight-semibold">
+        <p class="color-gray  milli  text-left">.text-left</p>
+      </div>
+    </div>
+    <div class="cell  one-third">
+      <div class="island  island-interior  island-outline  no-margin-bottom">
+        <p class=" color-gray  milli  weight-semibold  text-center">.text-center</p>
+      </div>
+    </div>
+    <div class="cell  one-third">
+      <div class="island  island-interior  island-outline  no-margin-bottom  color-gray  milli  weight-semibold">
+        <p class="color-gray-milli  text-right">.text-right</p>
+      </div>
+    </div>
+  </div>
+  <h3 class="gamma   weight-semibold  section-title">Margins</h3>
+  <div class="grid">
+    <div class="cell  one-quarter  palm-one-whole">
+      <p class="milli  weight-semibold  no-margin-bottom">.no-margin-bottom
+      </p>
+    </div>
+    <div class="cell  one-quarter  palm-one-whole">
+      <p class="milli  weight-semibold  quarter-margin-bottom">.quarter-margin-bottom
+      </p>
+      <p class="milli  color-gray">6px margin bottom</p>
+    </div>
+    <div class="cell  one-quarter  palm-one-whole">
+      <p class="milli  weight-semibold  half-margin-bottom">.half-margin-bottom
+      </p>
+      <p class="milli  color-gray  no-margin-bottom">12px margin bottom</p>
+    </div>
+    <div class="cell  one-quarter  palm-one-whole">
+      <p class="milli  weight-semibold  base-margin-bottom">.base-margin-bottom
+      </p>
+      <p class="milli  color-gray  no-margin-bottom">24px margin bottom</p>
+    </div>
+  </div>
+  <h3 class="gamma  weight-semibold  section-title">Opacity</h3>
+  <div class="grid">
+    <div class="cell  one-third">
+      <div class="island  island-interior  opacity-quarter  no-margin-bottom">
+        <span class="milli">.opacity-quarter</span>
+      </div>
+    </div>
+    <div class="cell  one-third">
+      <div class="island  island-interior  opacity-half  no-margin-bottom">
+        <span class="milli">.opacity-half</span>
+      </div>
+    </div>
+    <div class="cell  one-third">
+      <div class="island  island-interior  opacity-threequarters  no-margin-bottom">
+        <span class="milli">.opacity-threequarters</span>
+      </div>
+    </div>
+  </div>
+  <h3 class="gamma  weight-semibold  section-title">Horizontal Rules</h3>
+  <p> All horizontal rules have no top margin and a bottom margin of 24px except for <span class="class-highlight">.rule-double-pad</span> which has a top margin of 24px and bottom margin of 48px.
+  </p>
+  <div class="grid">
+    <div class="cell  one-whole  palm-one-whole">
+      <hr class="rule ">
+      <p class="milli color-gray  weight-semibold ss-up  icon-lead"> .rule
+      </p>
+    </div>
+    <div class="cell  one-whole  palm-one-whole">
+      <hr class="rule rule-dotted  ">
+      <p class="milli color-gray  weight-semibold  ss-up  icon-lead"> .rule-dotted
+      </p>
+    </div>
+    <div class="cell  one-whole  palm-one-whole">
+      <hr class="rule  rule-double-pad">
+      <p class="milli color-gray  weight-semibold  ss-up  icon-lead"> .rule-double-pad
+      </p>
+    </div>
+  </div>
+  <h3 class="gamma  weight-semibold  section-title">Hide/Show</h3>
+  <p>Used mainly for javascript - you have the ability to <span class="">.hide</span> or <span class="">.show</span> an object.
+  </p>
+</section>
+
+<hr class="rule  color-white">
+
+<section id="guidelines">
+  <h2 class="beta  section-title">General HTML Guidelines</h2>
+  <ul>
+    <li>Use soft-tabs with a two space indent for nested elements and when adding multiple classes.</li>
+    <li>We use double quotes on attributes.</li>
+    <li>Paragraphs of text should always be placed in a &lt;p&gt; tag. Never use multiple &lt;br&gt; tags.</li>
+  </ul>
+  <div class="island island-light">
+    <p>For a more comprehensive view of our best practices and guidelines for writing clean and consistant HTML &amp; CSS, visit our <a href="https://wiki.capmain.com/CSS-Styleguide" target="_blank">Wiki page</a>.</p>
+  </div>
+</section>
+</div>
+</div>
+</div>
+</div>
+</div>
